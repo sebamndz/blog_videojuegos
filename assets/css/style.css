@@ -6,22 +6,19 @@
   text-align: center;
   background-color: #f2f2f2;
 }
-.header {
-  background-color: #333;
-  color: #2c2c2c;
-  padding: 20px;
-  text-align: center;
-}
 
 h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 a {
   color: #333;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
 a:hover {
@@ -32,10 +29,6 @@ a:hover {
 a li:hover {
   color: #ffffff;
   background-color: #c4c4c4;
-}
-
-ul, ol {
-  list-style: none;
 }
 
 img {
@@ -50,11 +43,15 @@ nav {
   justify-content: center;
 }
 
-nav ul {
-  list-style: none;
+nav a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 nav ul li {
+  list-style: none;
   position: relative;
   white-space: nowrap;
   display: flex;
@@ -62,7 +59,7 @@ nav ul li {
 }
 
 nav ul li a {
-  padding: 10px;
+  padding: 15px;
   text-decoration: none;
   color: #333;
 }
