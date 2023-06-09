@@ -4,16 +4,27 @@
   font-size: 12px;
   font-weight: 200;
   text-align: center;
+}
+body {
+  margin: 0;
   background-color: #f2f2f2;
+}
+header {
+  background-color: #2c2c2c;
+  padding: auto;
+  padding-top: 1px;
 }
 
 h1 {
   font-size: 45px;
   font-weight: bold;
+  color: #f2f2f2;
 }
 
 h2 {
   font-size: 18px;
+  color: #f2f2f2;
+  padding: 20px;
 }
 
 a {
